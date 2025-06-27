@@ -875,3 +875,10 @@ iframe {
     margin: 0;
   }
 }
+@media (max-width: 305px) {
+  .heading-hero h1 {
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 120%;
+  }
+}
