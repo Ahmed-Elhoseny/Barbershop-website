@@ -372,7 +372,6 @@ select {
   gap: 32px;
 }
 .heading-hero {
-  max-width: 410px;
   font-family: var(--ff-primary);
   font-size: 100px;
   line-height: 170%;
@@ -383,6 +382,10 @@ select {
   grid-template-columns: 1fr 1fr;
   gap: 16px;
   margin-right: auto;
+}
+.hero-buttons button {
+  width: 118.6px;
+  height: 42px
 }
 
 /* About Section */
@@ -434,6 +437,7 @@ select {
 .services-list div img {
   width: 100px;
   height: 100px;
+  margin: 0 auto;
 }
 .services-button {
   display: flex;
@@ -834,7 +838,7 @@ iframe {
   }
 
   .heading-hero {
-    width: 356px;
+    max-width: 400px;
     justify-self: center;
   }
   .heading-hero h1 {
